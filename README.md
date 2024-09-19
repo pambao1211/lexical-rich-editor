@@ -1,12 +1,11 @@
 # lexical-rich-editor
-A full-fledged rich text editor package built on top of Lexical.
+A full-fledged rich text editor package built on top of [Lexical](https://github.com/facebook/lexical).
 # Usage
 > Note: The usage example provided here has been modified to suit our specific project needs. Adjust the configurations as necessary to fit your requirements.
 ```jsx
 <LexicalRichText
     className={twMerge(
       "text-md max-h-[1000px] min-h-[1000px] rounded-b-lg border-neutral-400"
-      // false && "rounded-t-lg bg-neutral-50 cursor-not-allowed",
     )}
     toolbarClassName="text-md rounded-t-lg border-neutral-400 border-b-0"
     initialState={field?.value?.serializedState}
