@@ -2,7 +2,7 @@
 A full-fledged rich text editor package built on top of Lexical.
 # Usage
 > Note: The usage example provided here has been modified to suit our specific project needs. Adjust the configurations as necessary to fit your requirements.
-```
+```jsx
 <LexicalRichText
     className={twMerge(
       "text-md max-h-[1000px] min-h-[1000px] rounded-b-lg border-neutral-400"
